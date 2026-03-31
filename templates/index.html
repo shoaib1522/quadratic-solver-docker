@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px 15px 0 0 !important;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-solve {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            font-weight: bold;
+        }
+        .btn-solve:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #6a4190 100%);
+            color: white;
+        }
+        .result-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            display: none;
+        }
+        .equation {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .server-info {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center py-3">
+                        <h4 class="mb-0">Quadratic Equation Solver</h4>
+                        <small>Solves: ax² + bx + c = 0</small>
+                    </div>
+                    <div class="card-body">
+                        <form id="quadraticForm">
+                            <div class="mb-3">
+                                <label for="a" class="form-label">Enter value for a:</label>
+                                <input type="number" class="form-control" id="a" name="a" step="any" placeholder="Enter coefficient a" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="b" class="form-label">Enter value for b:</label>
+                                <input type="number" class="form-control" id="b" name="b" step="any" placeholder="Enter coefficient b" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="c" class="form-label">Enter value for c:</label>
+                                <input type="number" class="form-control" id="c" name="c" step="any" placeholder="Enter constant c" required>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-solve">Solve Equation</button>
+                            </div>
+                        </form>
+                        
+                        <div class="loading" id="loading">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Solving...</p>
+                        </div>
+                        
+                        <div class="result-box" id="result">
+                            <h5 class="text-center mb-3">Solution</h5>
+                            <p class="equation" id="equation"></p>
+                            <p><strong>Discriminant (b² - 4ac):</strong> <span id="discriminant"></span></p>
+                            <p><strong>Solution Type:</strong> <span id="solutionType"></span></p>
+                            <p><strong>Roots:</strong></p>
+                            <ul id="roots"></ul>
+                            <div class="server-info">
+                                <p class="mb-1"><strong>Server Hostname:</strong> <span id="hostname"></span></p>
+                                <p class="mb-0"><strong>Server IP:</strong> <span id="serverIp"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#quadraticForm').on('submit', function(e) {
+                e.preventDefault();
+                
+                var a = $('#a').val();
+                var b = $('#b').val();
+                var c = $('#c').val();
+                
+                $('#loading').show();
+                $('#result').hide();
+                
+                $.ajax({
+                    url: '/solve',
+                    type: 'GET',
+                    data: { a: a, b: b, c: c },
+                    dataType: 'json',
+                    success: function(response) {
+                        $('#loading').hide();
+                        $('#result').show();
+                        
+                        $('#equation').text(response.equation);
+                        $('#discriminant').text(response.discriminant);
+                        $('#solutionType').text(response.message);
+                        $('#hostname').text(response.hostname);
+                        $('#serverIp').text(response.server_ip);
+                        
+                        $('#roots').empty();
+                        if (response.solution && response.solution.length > 0) {
+                            $.each(response.solution, function(index, root) {
+                                $('#roots').append('<li>x' + (index + 1) + ' = ' + root + '</li>');
+                            });
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        $('#loading').hide();
+                        alert('Error: ' + (xhr.responseJSON && xhr.responseJSON.error ? xhr.responseJSON.error : error));
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

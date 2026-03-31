@@ -1,0 +1,37 @@
+services:
+  app1:
+    build: .
+    container_name: quadratic-app1
+    expose:
+      - "5000"
+    environment:
+      - FLASK_APP=app.py
+    networks:
+      - quadratic-network
+
+  app2:
+    build: .
+    container_name: quadratic-app2
+    expose:
+      - "5000"
+    environment:
+      - FLASK_APP=app.py
+    networks:
+      - quadratic-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: quadratic-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app1
+      - app2
+    networks:
+      - quadratic-network
+
+networks:
+  quadratic-network:
+    driver: bridge
