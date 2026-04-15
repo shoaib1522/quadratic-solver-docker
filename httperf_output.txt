@@ -1,0 +1,2024 @@
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --print-reply --client=0/1 --server=localhost --port=80 --uri=/solve?a=1&b=-5&c=6 --rate=10 --send-buffer=4096 --recv-buffer=16384 --num-conns=100 --num-calls=1
+RH0:HTTP/1.1 200 OK
+RH0:Server: nginx/1.29.7
+RH0:Date: Wed, 15 Apr 2026 05:03:33 GMT
+RH0:Content-Type: application/json
+RH0:Content-Length: 231
+RH0:Connection: keep-alive
+RH0:
+RB0:{
+RB0:  "discriminant": 1.0,
+RB0:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB0:  "hostname": "9c1d9f6c2bf2",
+RB0:  "message": "Two real roots",
+RB0:  "server_ip": "172.21.0.3",
+RB0:  "solution": [
+RB0:    3.0,
+RB0:    2.0
+RB0:  ],
+RB0:  "solution_type": "two_real"
+RB0:}
+RS0: header 155 content 231 footer 0
+RH1:HTTP/1.1 200 OK
+RH1:Server: nginx/1.29.7
+RH1:Date: Wed, 15 Apr 2026 05:03:33 GMT
+RH1:Content-Type: application/json
+RH1:Content-Length: 231
+RH1:Connection: keep-alive
+RH1:
+RB1:{
+RB1:  "discriminant": 1.0,
+RB1:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB1:  "hostname": "82fe6eb55f6c",
+RB1:  "message": "Two real roots",
+RB1:  "server_ip": "172.21.0.2",
+RB1:  "solution": [
+RB1:    3.0,
+RB1:    2.0
+RB1:  ],
+RB1:  "solution_type": "two_real"
+RB1:}
+RS1: header 155 content 231 footer 0
+RH2:HTTP/1.1 200 OK
+RH2:Server: nginx/1.29.7
+RH2:Date: Wed, 15 Apr 2026 05:03:33 GMT
+RH2:Content-Type: application/json
+RH2:Content-Length: 231
+RH2:Connection: keep-alive
+RH2:
+RB2:{
+RB2:  "discriminant": 1.0,
+RB2:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB2:  "hostname": "9c1d9f6c2bf2",
+RB2:  "message": "Two real roots",
+RB2:  "server_ip": "172.21.0.3",
+RB2:  "solution": [
+RB2:    3.0,
+RB2:    2.0
+RB2:  ],
+RB2:  "solution_type": "two_real"
+RB2:}
+RS2: header 155 content 231 footer 0
+RH3:HTTP/1.1 200 OK
+RH3:Server: nginx/1.29.7
+RH3:Date: Wed, 15 Apr 2026 05:03:33 GMT
+RH3:Content-Type: application/json
+RH3:Content-Length: 231
+RH3:Connection: keep-alive
+RH3:
+RB3:{
+RB3:  "discriminant": 1.0,
+RB3:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB3:  "hostname": "82fe6eb55f6c",
+RB3:  "message": "Two real roots",
+RB3:  "server_ip": "172.21.0.2",
+RB3:  "solution": [
+RB3:    3.0,
+RB3:    2.0
+RB3:  ],
+RB3:  "solution_type": "two_real"
+RB3:}
+RS3: header 155 content 231 footer 0
+RH4:HTTP/1.1 200 OK
+RH4:Server: nginx/1.29.7
+RH4:Date: Wed, 15 Apr 2026 05:03:33 GMT
+RH4:Content-Type: application/json
+RH4:Content-Length: 231
+RH4:Connection: keep-alive
+RH4:
+RB4:{
+RB4:  "discriminant": 1.0,
+RB4:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB4:  "hostname": "9c1d9f6c2bf2",
+RB4:  "message": "Two real roots",
+RB4:  "server_ip": "172.21.0.3",
+RB4:  "solution": [
+RB4:    3.0,
+RB4:    2.0
+RB4:  ],
+RB4:  "solution_type": "two_real"
+RB4:}
+RS4: header 155 content 231 footer 0
+RH5:HTTP/1.1 200 OK
+RH5:Server: nginx/1.29.7
+RH5:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH5:Content-Type: application/json
+RH5:Content-Length: 231
+RH5:Connection: keep-alive
+RH5:
+RB5:{
+RB5:  "discriminant": 1.0,
+RB5:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB5:  "hostname": "82fe6eb55f6c",
+RB5:  "message": "Two real roots",
+RB5:  "server_ip": "172.21.0.2",
+RB5:  "solution": [
+RB5:    3.0,
+RB5:    2.0
+RB5:  ],
+RB5:  "solution_type": "two_real"
+RB5:}
+RS5: header 155 content 231 footer 0
+RH6:HTTP/1.1 200 OK
+RH6:Server: nginx/1.29.7
+RH6:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH6:Content-Type: application/json
+RH6:Content-Length: 231
+RH6:Connection: keep-alive
+RH6:
+RB6:{
+RB6:  "discriminant": 1.0,
+RB6:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB6:  "hostname": "9c1d9f6c2bf2",
+RB6:  "message": "Two real roots",
+RB6:  "server_ip": "172.21.0.3",
+RB6:  "solution": [
+RB6:    3.0,
+RB6:    2.0
+RB6:  ],
+RB6:  "solution_type": "two_real"
+RB6:}
+RS6: header 155 content 231 footer 0
+RH7:HTTP/1.1 200 OK
+RH7:Server: nginx/1.29.7
+RH7:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH7:Content-Type: application/json
+RH7:Content-Length: 231
+RH7:Connection: keep-alive
+RH7:
+RB7:{
+RB7:  "discriminant": 1.0,
+RB7:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB7:  "hostname": "82fe6eb55f6c",
+RB7:  "message": "Two real roots",
+RB7:  "server_ip": "172.21.0.2",
+RB7:  "solution": [
+RB7:    3.0,
+RB7:    2.0
+RB7:  ],
+RB7:  "solution_type": "two_real"
+RB7:}
+RS7: header 155 content 231 footer 0
+RH8:HTTP/1.1 200 OK
+RH8:Server: nginx/1.29.7
+RH8:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH8:Content-Type: application/json
+RH8:Content-Length: 231
+RH8:Connection: keep-alive
+RH8:
+RB8:{
+RB8:  "discriminant": 1.0,
+RB8:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB8:  "hostname": "9c1d9f6c2bf2",
+RB8:  "message": "Two real roots",
+RB8:  "server_ip": "172.21.0.3",
+RB8:  "solution": [
+RB8:    3.0,
+RB8:    2.0
+RB8:  ],
+RB8:  "solution_type": "two_real"
+RB8:}
+RS8: header 155 content 231 footer 0
+RH9:HTTP/1.1 200 OK
+RH9:Server: nginx/1.29.7
+RH9:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH9:Content-Type: application/json
+RH9:Content-Length: 231
+RH9:Connection: keep-alive
+RH9:
+RB9:{
+RB9:  "discriminant": 1.0,
+RB9:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB9:  "hostname": "82fe6eb55f6c",
+RB9:  "message": "Two real roots",
+RB9:  "server_ip": "172.21.0.2",
+RB9:  "solution": [
+RB9:    3.0,
+RB9:    2.0
+RB9:  ],
+RB9:  "solution_type": "two_real"
+RB9:}
+RS9: header 155 content 231 footer 0
+RH10:HTTP/1.1 200 OK
+RH10:Server: nginx/1.29.7
+RH10:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH10:Content-Type: application/json
+RH10:Content-Length: 231
+RH10:Connection: keep-alive
+RH10:
+RB10:{
+RB10:  "discriminant": 1.0,
+RB10:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB10:  "hostname": "9c1d9f6c2bf2",
+RB10:  "message": "Two real roots",
+RB10:  "server_ip": "172.21.0.3",
+RB10:  "solution": [
+RB10:    3.0,
+RB10:    2.0
+RB10:  ],
+RB10:  "solution_type": "two_real"
+RB10:}
+RS10: header 155 content 231 footer 0
+RH11:HTTP/1.1 200 OK
+RH11:Server: nginx/1.29.7
+RH11:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH11:Content-Type: application/json
+RH11:Content-Length: 231
+RH11:Connection: keep-alive
+RH11:
+RB11:{
+RB11:  "discriminant": 1.0,
+RB11:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB11:  "hostname": "82fe6eb55f6c",
+RB11:  "message": "Two real roots",
+RB11:  "server_ip": "172.21.0.2",
+RB11:  "solution": [
+RB11:    3.0,
+RB11:    2.0
+RB11:  ],
+RB11:  "solution_type": "two_real"
+RB11:}
+RS11: header 155 content 231 footer 0
+RH12:HTTP/1.1 200 OK
+RH12:Server: nginx/1.29.7
+RH12:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH12:Content-Type: application/json
+RH12:Content-Length: 231
+RH12:Connection: keep-alive
+RH12:
+RB12:{
+RB12:  "discriminant": 1.0,
+RB12:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB12:  "hostname": "9c1d9f6c2bf2",
+RB12:  "message": "Two real roots",
+RB12:  "server_ip": "172.21.0.3",
+RB12:  "solution": [
+RB12:    3.0,
+RB12:    2.0
+RB12:  ],
+RB12:  "solution_type": "two_real"
+RB12:}
+RS12: header 155 content 231 footer 0
+RH13:HTTP/1.1 200 OK
+RH13:Server: nginx/1.29.7
+RH13:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH13:Content-Type: application/json
+RH13:Content-Length: 231
+RH13:Connection: keep-alive
+RH13:
+RB13:{
+RB13:  "discriminant": 1.0,
+RB13:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB13:  "hostname": "82fe6eb55f6c",
+RB13:  "message": "Two real roots",
+RB13:  "server_ip": "172.21.0.2",
+RB13:  "solution": [
+RB13:    3.0,
+RB13:    2.0
+RB13:  ],
+RB13:  "solution_type": "two_real"
+RB13:}
+RS13: header 155 content 231 footer 0
+RH14:HTTP/1.1 200 OK
+RH14:Server: nginx/1.29.7
+RH14:Date: Wed, 15 Apr 2026 05:03:34 GMT
+RH14:Content-Type: application/json
+RH14:Content-Length: 231
+RH14:Connection: keep-alive
+RH14:
+RB14:{
+RB14:  "discriminant": 1.0,
+RB14:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB14:  "hostname": "9c1d9f6c2bf2",
+RB14:  "message": "Two real roots",
+RB14:  "server_ip": "172.21.0.3",
+RB14:  "solution": [
+RB14:    3.0,
+RB14:    2.0
+RB14:  ],
+RB14:  "solution_type": "two_real"
+RB14:}
+RS14: header 155 content 231 footer 0
+RH15:HTTP/1.1 200 OK
+RH15:Server: nginx/1.29.7
+RH15:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH15:Content-Type: application/json
+RH15:Content-Length: 231
+RH15:Connection: keep-alive
+RH15:
+RB15:{
+RB15:  "discriminant": 1.0,
+RB15:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB15:  "hostname": "82fe6eb55f6c",
+RB15:  "message": "Two real roots",
+RB15:  "server_ip": "172.21.0.2",
+RB15:  "solution": [
+RB15:    3.0,
+RB15:    2.0
+RB15:  ],
+RB15:  "solution_type": "two_real"
+RB15:}
+RS15: header 155 content 231 footer 0
+RH16:HTTP/1.1 200 OK
+RH16:Server: nginx/1.29.7
+RH16:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH16:Content-Type: application/json
+RH16:Content-Length: 231
+RH16:Connection: keep-alive
+RH16:
+RB16:{
+RB16:  "discriminant": 1.0,
+RB16:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB16:  "hostname": "9c1d9f6c2bf2",
+RB16:  "message": "Two real roots",
+RB16:  "server_ip": "172.21.0.3",
+RB16:  "solution": [
+RB16:    3.0,
+RB16:    2.0
+RB16:  ],
+RB16:  "solution_type": "two_real"
+RB16:}
+RS16: header 155 content 231 footer 0
+RH17:HTTP/1.1 200 OK
+RH17:Server: nginx/1.29.7
+RH17:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH17:Content-Type: application/json
+RH17:Content-Length: 231
+RH17:Connection: keep-alive
+RH17:
+RB17:{
+RB17:  "discriminant": 1.0,
+RB17:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB17:  "hostname": "82fe6eb55f6c",
+RB17:  "message": "Two real roots",
+RB17:  "server_ip": "172.21.0.2",
+RB17:  "solution": [
+RB17:    3.0,
+RB17:    2.0
+RB17:  ],
+RB17:  "solution_type": "two_real"
+RB17:}
+RS17: header 155 content 231 footer 0
+RH18:HTTP/1.1 200 OK
+RH18:Server: nginx/1.29.7
+RH18:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH18:Content-Type: application/json
+RH18:Content-Length: 231
+RH18:Connection: keep-alive
+RH18:
+RB18:{
+RB18:  "discriminant": 1.0,
+RB18:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB18:  "hostname": "9c1d9f6c2bf2",
+RB18:  "message": "Two real roots",
+RB18:  "server_ip": "172.21.0.3",
+RB18:  "solution": [
+RB18:    3.0,
+RB18:    2.0
+RB18:  ],
+RB18:  "solution_type": "two_real"
+RB18:}
+RS18: header 155 content 231 footer 0
+RH19:HTTP/1.1 200 OK
+RH19:Server: nginx/1.29.7
+RH19:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH19:Content-Type: application/json
+RH19:Content-Length: 231
+RH19:Connection: keep-alive
+RH19:
+RB19:{
+RB19:  "discriminant": 1.0,
+RB19:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB19:  "hostname": "82fe6eb55f6c",
+RB19:  "message": "Two real roots",
+RB19:  "server_ip": "172.21.0.2",
+RB19:  "solution": [
+RB19:    3.0,
+RB19:    2.0
+RB19:  ],
+RB19:  "solution_type": "two_real"
+RB19:}
+RS19: header 155 content 231 footer 0
+RH20:HTTP/1.1 200 OK
+RH20:Server: nginx/1.29.7
+RH20:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH20:Content-Type: application/json
+RH20:Content-Length: 231
+RH20:Connection: keep-alive
+RH20:
+RB20:{
+RB20:  "discriminant": 1.0,
+RB20:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB20:  "hostname": "9c1d9f6c2bf2",
+RB20:  "message": "Two real roots",
+RB20:  "server_ip": "172.21.0.3",
+RB20:  "solution": [
+RB20:    3.0,
+RB20:    2.0
+RB20:  ],
+RB20:  "solution_type": "two_real"
+RB20:}
+RS20: header 155 content 231 footer 0
+RH21:HTTP/1.1 200 OK
+RH21:Server: nginx/1.29.7
+RH21:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH21:Content-Type: application/json
+RH21:Content-Length: 231
+RH21:Connection: keep-alive
+RH21:
+RB21:{
+RB21:  "discriminant": 1.0,
+RB21:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB21:  "hostname": "82fe6eb55f6c",
+RB21:  "message": "Two real roots",
+RB21:  "server_ip": "172.21.0.2",
+RB21:  "solution": [
+RB21:    3.0,
+RB21:    2.0
+RB21:  ],
+RB21:  "solution_type": "two_real"
+RB21:}
+RS21: header 155 content 231 footer 0
+RH22:HTTP/1.1 200 OK
+RH22:Server: nginx/1.29.7
+RH22:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH22:Content-Type: application/json
+RH22:Content-Length: 231
+RH22:Connection: keep-alive
+RH22:
+RB22:{
+RB22:  "discriminant": 1.0,
+RB22:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB22:  "hostname": "9c1d9f6c2bf2",
+RB22:  "message": "Two real roots",
+RB22:  "server_ip": "172.21.0.3",
+RB22:  "solution": [
+RB22:    3.0,
+RB22:    2.0
+RB22:  ],
+RB22:  "solution_type": "two_real"
+RB22:}
+RS22: header 155 content 231 footer 0
+RH23:HTTP/1.1 200 OK
+RH23:Server: nginx/1.29.7
+RH23:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH23:Content-Type: application/json
+RH23:Content-Length: 231
+RH23:Connection: keep-alive
+RH23:
+RB23:{
+RB23:  "discriminant": 1.0,
+RB23:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB23:  "hostname": "82fe6eb55f6c",
+RB23:  "message": "Two real roots",
+RB23:  "server_ip": "172.21.0.2",
+RB23:  "solution": [
+RB23:    3.0,
+RB23:    2.0
+RB23:  ],
+RB23:  "solution_type": "two_real"
+RB23:}
+RS23: header 155 content 231 footer 0
+RH24:HTTP/1.1 200 OK
+RH24:Server: nginx/1.29.7
+RH24:Date: Wed, 15 Apr 2026 05:03:35 GMT
+RH24:Content-Type: application/json
+RH24:Content-Length: 231
+RH24:Connection: keep-alive
+RH24:
+RB24:{
+RB24:  "discriminant": 1.0,
+RB24:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB24:  "hostname": "9c1d9f6c2bf2",
+RB24:  "message": "Two real roots",
+RB24:  "server_ip": "172.21.0.3",
+RB24:  "solution": [
+RB24:    3.0,
+RB24:    2.0
+RB24:  ],
+RB24:  "solution_type": "two_real"
+RB24:}
+RS24: header 155 content 231 footer 0
+RH25:HTTP/1.1 200 OK
+RH25:Server: nginx/1.29.7
+RH25:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH25:Content-Type: application/json
+RH25:Content-Length: 231
+RH25:Connection: keep-alive
+RH25:
+RB25:{
+RB25:  "discriminant": 1.0,
+RB25:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB25:  "hostname": "82fe6eb55f6c",
+RB25:  "message": "Two real roots",
+RB25:  "server_ip": "172.21.0.2",
+RB25:  "solution": [
+RB25:    3.0,
+RB25:    2.0
+RB25:  ],
+RB25:  "solution_type": "two_real"
+RB25:}
+RS25: header 155 content 231 footer 0
+RH26:HTTP/1.1 200 OK
+RH26:Server: nginx/1.29.7
+RH26:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH26:Content-Type: application/json
+RH26:Content-Length: 231
+RH26:Connection: keep-alive
+RH26:
+RB26:{
+RB26:  "discriminant": 1.0,
+RB26:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB26:  "hostname": "9c1d9f6c2bf2",
+RB26:  "message": "Two real roots",
+RB26:  "server_ip": "172.21.0.3",
+RB26:  "solution": [
+RB26:    3.0,
+RB26:    2.0
+RB26:  ],
+RB26:  "solution_type": "two_real"
+RB26:}
+RS26: header 155 content 231 footer 0
+RH27:HTTP/1.1 200 OK
+RH27:Server: nginx/1.29.7
+RH27:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH27:Content-Type: application/json
+RH27:Content-Length: 231
+RH27:Connection: keep-alive
+RH27:
+RB27:{
+RB27:  "discriminant": 1.0,
+RB27:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB27:  "hostname": "82fe6eb55f6c",
+RB27:  "message": "Two real roots",
+RB27:  "server_ip": "172.21.0.2",
+RB27:  "solution": [
+RB27:    3.0,
+RB27:    2.0
+RB27:  ],
+RB27:  "solution_type": "two_real"
+RB27:}
+RS27: header 155 content 231 footer 0
+RH28:HTTP/1.1 200 OK
+RH28:Server: nginx/1.29.7
+RH28:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH28:Content-Type: application/json
+RH28:Content-Length: 231
+RH28:Connection: keep-alive
+RH28:
+RB28:{
+RB28:  "discriminant": 1.0,
+RB28:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB28:  "hostname": "9c1d9f6c2bf2",
+RB28:  "message": "Two real roots",
+RB28:  "server_ip": "172.21.0.3",
+RB28:  "solution": [
+RB28:    3.0,
+RB28:    2.0
+RB28:  ],
+RB28:  "solution_type": "two_real"
+RB28:}
+RS28: header 155 content 231 footer 0
+RH29:HTTP/1.1 200 OK
+RH29:Server: nginx/1.29.7
+RH29:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH29:Content-Type: application/json
+RH29:Content-Length: 231
+RH29:Connection: keep-alive
+RH29:
+RB29:{
+RB29:  "discriminant": 1.0,
+RB29:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB29:  "hostname": "82fe6eb55f6c",
+RB29:  "message": "Two real roots",
+RB29:  "server_ip": "172.21.0.2",
+RB29:  "solution": [
+RB29:    3.0,
+RB29:    2.0
+RB29:  ],
+RB29:  "solution_type": "two_real"
+RB29:}
+RS29: header 155 content 231 footer 0
+RH30:HTTP/1.1 200 OK
+RH30:Server: nginx/1.29.7
+RH30:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH30:Content-Type: application/json
+RH30:Content-Length: 231
+RH30:Connection: keep-alive
+RH30:
+RB30:{
+RB30:  "discriminant": 1.0,
+RB30:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB30:  "hostname": "9c1d9f6c2bf2",
+RB30:  "message": "Two real roots",
+RB30:  "server_ip": "172.21.0.3",
+RB30:  "solution": [
+RB30:    3.0,
+RB30:    2.0
+RB30:  ],
+RB30:  "solution_type": "two_real"
+RB30:}
+RS30: header 155 content 231 footer 0
+RH31:HTTP/1.1 200 OK
+RH31:Server: nginx/1.29.7
+RH31:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH31:Content-Type: application/json
+RH31:Content-Length: 231
+RH31:Connection: keep-alive
+RH31:
+RB31:{
+RB31:  "discriminant": 1.0,
+RB31:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB31:  "hostname": "82fe6eb55f6c",
+RB31:  "message": "Two real roots",
+RB31:  "server_ip": "172.21.0.2",
+RB31:  "solution": [
+RB31:    3.0,
+RB31:    2.0
+RB31:  ],
+RB31:  "solution_type": "two_real"
+RB31:}
+RS31: header 155 content 231 footer 0
+RH32:HTTP/1.1 200 OK
+RH32:Server: nginx/1.29.7
+RH32:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH32:Content-Type: application/json
+RH32:Content-Length: 231
+RH32:Connection: keep-alive
+RH32:
+RB32:{
+RB32:  "discriminant": 1.0,
+RB32:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB32:  "hostname": "9c1d9f6c2bf2",
+RB32:  "message": "Two real roots",
+RB32:  "server_ip": "172.21.0.3",
+RB32:  "solution": [
+RB32:    3.0,
+RB32:    2.0
+RB32:  ],
+RB32:  "solution_type": "two_real"
+RB32:}
+RS32: header 155 content 231 footer 0
+RH33:HTTP/1.1 200 OK
+RH33:Server: nginx/1.29.7
+RH33:Date: Wed, 15 Apr 2026 05:03:36 GMT
+RH33:Content-Type: application/json
+RH33:Content-Length: 231
+RH33:Connection: keep-alive
+RH33:
+RB33:{
+RB33:  "discriminant": 1.0,
+RB33:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB33:  "hostname": "82fe6eb55f6c",
+RB33:  "message": "Two real roots",
+RB33:  "server_ip": "172.21.0.2",
+RB33:  "solution": [
+RB33:    3.0,
+RB33:    2.0
+RB33:  ],
+RB33:  "solution_type": "two_real"
+RB33:}
+RS33: header 155 content 231 footer 0
+RH34:HTTP/1.1 200 OK
+RH34:Server: nginx/1.29.7
+RH34:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH34:Content-Type: application/json
+RH34:Content-Length: 231
+RH34:Connection: keep-alive
+RH34:
+RB34:{
+RB34:  "discriminant": 1.0,
+RB34:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB34:  "hostname": "9c1d9f6c2bf2",
+RB34:  "message": "Two real roots",
+RB34:  "server_ip": "172.21.0.3",
+RB34:  "solution": [
+RB34:    3.0,
+RB34:    2.0
+RB34:  ],
+RB34:  "solution_type": "two_real"
+RB34:}
+RS34: header 155 content 231 footer 0
+RH35:HTTP/1.1 200 OK
+RH35:Server: nginx/1.29.7
+RH35:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH35:Content-Type: application/json
+RH35:Content-Length: 231
+RH35:Connection: keep-alive
+RH35:
+RB35:{
+RB35:  "discriminant": 1.0,
+RB35:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB35:  "hostname": "82fe6eb55f6c",
+RB35:  "message": "Two real roots",
+RB35:  "server_ip": "172.21.0.2",
+RB35:  "solution": [
+RB35:    3.0,
+RB35:    2.0
+RB35:  ],
+RB35:  "solution_type": "two_real"
+RB35:}
+RS35: header 155 content 231 footer 0
+RH36:HTTP/1.1 200 OK
+RH36:Server: nginx/1.29.7
+RH36:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH36:Content-Type: application/json
+RH36:Content-Length: 231
+RH36:Connection: keep-alive
+RH36:
+RB36:{
+RB36:  "discriminant": 1.0,
+RB36:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB36:  "hostname": "9c1d9f6c2bf2",
+RB36:  "message": "Two real roots",
+RB36:  "server_ip": "172.21.0.3",
+RB36:  "solution": [
+RB36:    3.0,
+RB36:    2.0
+RB36:  ],
+RB36:  "solution_type": "two_real"
+RB36:}
+RS36: header 155 content 231 footer 0
+RH37:HTTP/1.1 200 OK
+RH37:Server: nginx/1.29.7
+RH37:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH37:Content-Type: application/json
+RH37:Content-Length: 231
+RH37:Connection: keep-alive
+RH37:
+RB37:{
+RB37:  "discriminant": 1.0,
+RB37:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB37:  "hostname": "82fe6eb55f6c",
+RB37:  "message": "Two real roots",
+RB37:  "server_ip": "172.21.0.2",
+RB37:  "solution": [
+RB37:    3.0,
+RB37:    2.0
+RB37:  ],
+RB37:  "solution_type": "two_real"
+RB37:}
+RS37: header 155 content 231 footer 0
+RH38:HTTP/1.1 200 OK
+RH38:Server: nginx/1.29.7
+RH38:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH38:Content-Type: application/json
+RH38:Content-Length: 231
+RH38:Connection: keep-alive
+RH38:
+RB38:{
+RB38:  "discriminant": 1.0,
+RB38:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB38:  "hostname": "9c1d9f6c2bf2",
+RB38:  "message": "Two real roots",
+RB38:  "server_ip": "172.21.0.3",
+RB38:  "solution": [
+RB38:    3.0,
+RB38:    2.0
+RB38:  ],
+RB38:  "solution_type": "two_real"
+RB38:}
+RS38: header 155 content 231 footer 0
+RH39:HTTP/1.1 200 OK
+RH39:Server: nginx/1.29.7
+RH39:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH39:Content-Type: application/json
+RH39:Content-Length: 231
+RH39:Connection: keep-alive
+RH39:
+RB39:{
+RB39:  "discriminant": 1.0,
+RB39:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB39:  "hostname": "82fe6eb55f6c",
+RB39:  "message": "Two real roots",
+RB39:  "server_ip": "172.21.0.2",
+RB39:  "solution": [
+RB39:    3.0,
+RB39:    2.0
+RB39:  ],
+RB39:  "solution_type": "two_real"
+RB39:}
+RS39: header 155 content 231 footer 0
+RH40:HTTP/1.1 200 OK
+RH40:Server: nginx/1.29.7
+RH40:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH40:Content-Type: application/json
+RH40:Content-Length: 231
+RH40:Connection: keep-alive
+RH40:
+RB40:{
+RB40:  "discriminant": 1.0,
+RB40:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB40:  "hostname": "9c1d9f6c2bf2",
+RB40:  "message": "Two real roots",
+RB40:  "server_ip": "172.21.0.3",
+RB40:  "solution": [
+RB40:    3.0,
+RB40:    2.0
+RB40:  ],
+RB40:  "solution_type": "two_real"
+RB40:}
+RS40: header 155 content 231 footer 0
+RH41:HTTP/1.1 200 OK
+RH41:Server: nginx/1.29.7
+RH41:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH41:Content-Type: application/json
+RH41:Content-Length: 231
+RH41:Connection: keep-alive
+RH41:
+RB41:{
+RB41:  "discriminant": 1.0,
+RB41:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB41:  "hostname": "82fe6eb55f6c",
+RB41:  "message": "Two real roots",
+RB41:  "server_ip": "172.21.0.2",
+RB41:  "solution": [
+RB41:    3.0,
+RB41:    2.0
+RB41:  ],
+RB41:  "solution_type": "two_real"
+RB41:}
+RS41: header 155 content 231 footer 0
+RH42:HTTP/1.1 200 OK
+RH42:Server: nginx/1.29.7
+RH42:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH42:Content-Type: application/json
+RH42:Content-Length: 231
+RH42:Connection: keep-alive
+RH42:
+RB42:{
+RB42:  "discriminant": 1.0,
+RB42:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB42:  "hostname": "9c1d9f6c2bf2",
+RB42:  "message": "Two real roots",
+RB42:  "server_ip": "172.21.0.3",
+RB42:  "solution": [
+RB42:    3.0,
+RB42:    2.0
+RB42:  ],
+RB42:  "solution_type": "two_real"
+RB42:}
+RS42: header 155 content 231 footer 0
+RH43:HTTP/1.1 200 OK
+RH43:Server: nginx/1.29.7
+RH43:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH43:Content-Type: application/json
+RH43:Content-Length: 231
+RH43:Connection: keep-alive
+RH43:
+RB43:{
+RB43:  "discriminant": 1.0,
+RB43:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB43:  "hostname": "82fe6eb55f6c",
+RB43:  "message": "Two real roots",
+RB43:  "server_ip": "172.21.0.2",
+RB43:  "solution": [
+RB43:    3.0,
+RB43:    2.0
+RB43:  ],
+RB43:  "solution_type": "two_real"
+RB43:}
+RS43: header 155 content 231 footer 0
+RH44:HTTP/1.1 200 OK
+RH44:Server: nginx/1.29.7
+RH44:Date: Wed, 15 Apr 2026 05:03:37 GMT
+RH44:Content-Type: application/json
+RH44:Content-Length: 231
+RH44:Connection: keep-alive
+RH44:
+RB44:{
+RB44:  "discriminant": 1.0,
+RB44:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB44:  "hostname": "9c1d9f6c2bf2",
+RB44:  "message": "Two real roots",
+RB44:  "server_ip": "172.21.0.3",
+RB44:  "solution": [
+RB44:    3.0,
+RB44:    2.0
+RB44:  ],
+RB44:  "solution_type": "two_real"
+RB44:}
+RS44: header 155 content 231 footer 0
+RH45:HTTP/1.1 200 OK
+RH45:Server: nginx/1.29.7
+RH45:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH45:Content-Type: application/json
+RH45:Content-Length: 231
+RH45:Connection: keep-alive
+RH45:
+RB45:{
+RB45:  "discriminant": 1.0,
+RB45:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB45:  "hostname": "82fe6eb55f6c",
+RB45:  "message": "Two real roots",
+RB45:  "server_ip": "172.21.0.2",
+RB45:  "solution": [
+RB45:    3.0,
+RB45:    2.0
+RB45:  ],
+RB45:  "solution_type": "two_real"
+RB45:}
+RS45: header 155 content 231 footer 0
+RH46:HTTP/1.1 200 OK
+RH46:Server: nginx/1.29.7
+RH46:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH46:Content-Type: application/json
+RH46:Content-Length: 231
+RH46:Connection: keep-alive
+RH46:
+RB46:{
+RB46:  "discriminant": 1.0,
+RB46:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB46:  "hostname": "9c1d9f6c2bf2",
+RB46:  "message": "Two real roots",
+RB46:  "server_ip": "172.21.0.3",
+RB46:  "solution": [
+RB46:    3.0,
+RB46:    2.0
+RB46:  ],
+RB46:  "solution_type": "two_real"
+RB46:}
+RS46: header 155 content 231 footer 0
+RH47:HTTP/1.1 200 OK
+RH47:Server: nginx/1.29.7
+RH47:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH47:Content-Type: application/json
+RH47:Content-Length: 231
+RH47:Connection: keep-alive
+RH47:
+RB47:{
+RB47:  "discriminant": 1.0,
+RB47:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB47:  "hostname": "82fe6eb55f6c",
+RB47:  "message": "Two real roots",
+RB47:  "server_ip": "172.21.0.2",
+RB47:  "solution": [
+RB47:    3.0,
+RB47:    2.0
+RB47:  ],
+RB47:  "solution_type": "two_real"
+RB47:}
+RS47: header 155 content 231 footer 0
+RH48:HTTP/1.1 200 OK
+RH48:Server: nginx/1.29.7
+RH48:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH48:Content-Type: application/json
+RH48:Content-Length: 231
+RH48:Connection: keep-alive
+RH48:
+RB48:{
+RB48:  "discriminant": 1.0,
+RB48:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB48:  "hostname": "9c1d9f6c2bf2",
+RB48:  "message": "Two real roots",
+RB48:  "server_ip": "172.21.0.3",
+RB48:  "solution": [
+RB48:    3.0,
+RB48:    2.0
+RB48:  ],
+RB48:  "solution_type": "two_real"
+RB48:}
+RS48: header 155 content 231 footer 0
+RH49:HTTP/1.1 200 OK
+RH49:Server: nginx/1.29.7
+RH49:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH49:Content-Type: application/json
+RH49:Content-Length: 231
+RH49:Connection: keep-alive
+RH49:
+RB49:{
+RB49:  "discriminant": 1.0,
+RB49:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB49:  "hostname": "82fe6eb55f6c",
+RB49:  "message": "Two real roots",
+RB49:  "server_ip": "172.21.0.2",
+RB49:  "solution": [
+RB49:    3.0,
+RB49:    2.0
+RB49:  ],
+RB49:  "solution_type": "two_real"
+RB49:}
+RS49: header 155 content 231 footer 0
+RH50:HTTP/1.1 200 OK
+RH50:Server: nginx/1.29.7
+RH50:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH50:Content-Type: application/json
+RH50:Content-Length: 231
+RH50:Connection: keep-alive
+RH50:
+RB50:{
+RB50:  "discriminant": 1.0,
+RB50:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB50:  "hostname": "9c1d9f6c2bf2",
+RB50:  "message": "Two real roots",
+RB50:  "server_ip": "172.21.0.3",
+RB50:  "solution": [
+RB50:    3.0,
+RB50:    2.0
+RB50:  ],
+RB50:  "solution_type": "two_real"
+RB50:}
+RS50: header 155 content 231 footer 0
+RH51:HTTP/1.1 200 OK
+RH51:Server: nginx/1.29.7
+RH51:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH51:Content-Type: application/json
+RH51:Content-Length: 231
+RH51:Connection: keep-alive
+RH51:
+RB51:{
+RB51:  "discriminant": 1.0,
+RB51:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB51:  "hostname": "82fe6eb55f6c",
+RB51:  "message": "Two real roots",
+RB51:  "server_ip": "172.21.0.2",
+RB51:  "solution": [
+RB51:    3.0,
+RB51:    2.0
+RB51:  ],
+RB51:  "solution_type": "two_real"
+RB51:}
+RS51: header 155 content 231 footer 0
+RH52:HTTP/1.1 200 OK
+RH52:Server: nginx/1.29.7
+RH52:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH52:Content-Type: application/json
+RH52:Content-Length: 231
+RH52:Connection: keep-alive
+RH52:
+RB52:{
+RB52:  "discriminant": 1.0,
+RB52:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB52:  "hostname": "9c1d9f6c2bf2",
+RB52:  "message": "Two real roots",
+RB52:  "server_ip": "172.21.0.3",
+RB52:  "solution": [
+RB52:    3.0,
+RB52:    2.0
+RB52:  ],
+RB52:  "solution_type": "two_real"
+RB52:}
+RS52: header 155 content 231 footer 0
+RH53:HTTP/1.1 200 OK
+RH53:Server: nginx/1.29.7
+RH53:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH53:Content-Type: application/json
+RH53:Content-Length: 231
+RH53:Connection: keep-alive
+RH53:
+RB53:{
+RB53:  "discriminant": 1.0,
+RB53:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB53:  "hostname": "82fe6eb55f6c",
+RB53:  "message": "Two real roots",
+RB53:  "server_ip": "172.21.0.2",
+RB53:  "solution": [
+RB53:    3.0,
+RB53:    2.0
+RB53:  ],
+RB53:  "solution_type": "two_real"
+RB53:}
+RS53: header 155 content 231 footer 0
+RH54:HTTP/1.1 200 OK
+RH54:Server: nginx/1.29.7
+RH54:Date: Wed, 15 Apr 2026 05:03:38 GMT
+RH54:Content-Type: application/json
+RH54:Content-Length: 231
+RH54:Connection: keep-alive
+RH54:
+RB54:{
+RB54:  "discriminant": 1.0,
+RB54:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB54:  "hostname": "9c1d9f6c2bf2",
+RB54:  "message": "Two real roots",
+RB54:  "server_ip": "172.21.0.3",
+RB54:  "solution": [
+RB54:    3.0,
+RB54:    2.0
+RB54:  ],
+RB54:  "solution_type": "two_real"
+RB54:}
+RS54: header 155 content 231 footer 0
+RH55:HTTP/1.1 200 OK
+RH55:Server: nginx/1.29.7
+RH55:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH55:Content-Type: application/json
+RH55:Content-Length: 231
+RH55:Connection: keep-alive
+RH55:
+RB55:{
+RB55:  "discriminant": 1.0,
+RB55:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB55:  "hostname": "82fe6eb55f6c",
+RB55:  "message": "Two real roots",
+RB55:  "server_ip": "172.21.0.2",
+RB55:  "solution": [
+RB55:    3.0,
+RB55:    2.0
+RB55:  ],
+RB55:  "solution_type": "two_real"
+RB55:}
+RS55: header 155 content 231 footer 0
+RH56:HTTP/1.1 200 OK
+RH56:Server: nginx/1.29.7
+RH56:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH56:Content-Type: application/json
+RH56:Content-Length: 231
+RH56:Connection: keep-alive
+RH56:
+RB56:{
+RB56:  "discriminant": 1.0,
+RB56:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB56:  "hostname": "9c1d9f6c2bf2",
+RB56:  "message": "Two real roots",
+RB56:  "server_ip": "172.21.0.3",
+RB56:  "solution": [
+RB56:    3.0,
+RB56:    2.0
+RB56:  ],
+RB56:  "solution_type": "two_real"
+RB56:}
+RS56: header 155 content 231 footer 0
+RH57:HTTP/1.1 200 OK
+RH57:Server: nginx/1.29.7
+RH57:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH57:Content-Type: application/json
+RH57:Content-Length: 231
+RH57:Connection: keep-alive
+RH57:
+RB57:{
+RB57:  "discriminant": 1.0,
+RB57:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB57:  "hostname": "82fe6eb55f6c",
+RB57:  "message": "Two real roots",
+RB57:  "server_ip": "172.21.0.2",
+RB57:  "solution": [
+RB57:    3.0,
+RB57:    2.0
+RB57:  ],
+RB57:  "solution_type": "two_real"
+RB57:}
+RS57: header 155 content 231 footer 0
+RH58:HTTP/1.1 200 OK
+RH58:Server: nginx/1.29.7
+RH58:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH58:Content-Type: application/json
+RH58:Content-Length: 231
+RH58:Connection: keep-alive
+RH58:
+RB58:{
+RB58:  "discriminant": 1.0,
+RB58:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB58:  "hostname": "9c1d9f6c2bf2",
+RB58:  "message": "Two real roots",
+RB58:  "server_ip": "172.21.0.3",
+RB58:  "solution": [
+RB58:    3.0,
+RB58:    2.0
+RB58:  ],
+RB58:  "solution_type": "two_real"
+RB58:}
+RS58: header 155 content 231 footer 0
+RH59:HTTP/1.1 200 OK
+RH59:Server: nginx/1.29.7
+RH59:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH59:Content-Type: application/json
+RH59:Content-Length: 231
+RH59:Connection: keep-alive
+RH59:
+RB59:{
+RB59:  "discriminant": 1.0,
+RB59:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB59:  "hostname": "82fe6eb55f6c",
+RB59:  "message": "Two real roots",
+RB59:  "server_ip": "172.21.0.2",
+RB59:  "solution": [
+RB59:    3.0,
+RB59:    2.0
+RB59:  ],
+RB59:  "solution_type": "two_real"
+RB59:}
+RS59: header 155 content 231 footer 0
+RH60:HTTP/1.1 200 OK
+RH60:Server: nginx/1.29.7
+RH60:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH60:Content-Type: application/json
+RH60:Content-Length: 231
+RH60:Connection: keep-alive
+RH60:
+RB60:{
+RB60:  "discriminant": 1.0,
+RB60:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB60:  "hostname": "9c1d9f6c2bf2",
+RB60:  "message": "Two real roots",
+RB60:  "server_ip": "172.21.0.3",
+RB60:  "solution": [
+RB60:    3.0,
+RB60:    2.0
+RB60:  ],
+RB60:  "solution_type": "two_real"
+RB60:}
+RS60: header 155 content 231 footer 0
+RH61:HTTP/1.1 200 OK
+RH61:Server: nginx/1.29.7
+RH61:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH61:Content-Type: application/json
+RH61:Content-Length: 231
+RH61:Connection: keep-alive
+RH61:
+RB61:{
+RB61:  "discriminant": 1.0,
+RB61:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB61:  "hostname": "82fe6eb55f6c",
+RB61:  "message": "Two real roots",
+RB61:  "server_ip": "172.21.0.2",
+RB61:  "solution": [
+RB61:    3.0,
+RB61:    2.0
+RB61:  ],
+RB61:  "solution_type": "two_real"
+RB61:}
+RS61: header 155 content 231 footer 0
+RH62:HTTP/1.1 200 OK
+RH62:Server: nginx/1.29.7
+RH62:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH62:Content-Type: application/json
+RH62:Content-Length: 231
+RH62:Connection: keep-alive
+RH62:
+RB62:{
+RB62:  "discriminant": 1.0,
+RB62:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB62:  "hostname": "9c1d9f6c2bf2",
+RB62:  "message": "Two real roots",
+RB62:  "server_ip": "172.21.0.3",
+RB62:  "solution": [
+RB62:    3.0,
+RB62:    2.0
+RB62:  ],
+RB62:  "solution_type": "two_real"
+RB62:}
+RS62: header 155 content 231 footer 0
+RH63:HTTP/1.1 200 OK
+RH63:Server: nginx/1.29.7
+RH63:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH63:Content-Type: application/json
+RH63:Content-Length: 231
+RH63:Connection: keep-alive
+RH63:
+RB63:{
+RB63:  "discriminant": 1.0,
+RB63:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB63:  "hostname": "82fe6eb55f6c",
+RB63:  "message": "Two real roots",
+RB63:  "server_ip": "172.21.0.2",
+RB63:  "solution": [
+RB63:    3.0,
+RB63:    2.0
+RB63:  ],
+RB63:  "solution_type": "two_real"
+RB63:}
+RS63: header 155 content 231 footer 0
+RH64:HTTP/1.1 200 OK
+RH64:Server: nginx/1.29.7
+RH64:Date: Wed, 15 Apr 2026 05:03:39 GMT
+RH64:Content-Type: application/json
+RH64:Content-Length: 231
+RH64:Connection: keep-alive
+RH64:
+RB64:{
+RB64:  "discriminant": 1.0,
+RB64:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB64:  "hostname": "9c1d9f6c2bf2",
+RB64:  "message": "Two real roots",
+RB64:  "server_ip": "172.21.0.3",
+RB64:  "solution": [
+RB64:    3.0,
+RB64:    2.0
+RB64:  ],
+RB64:  "solution_type": "two_real"
+RB64:}
+RS64: header 155 content 231 footer 0
+RH65:HTTP/1.1 200 OK
+RH65:Server: nginx/1.29.7
+RH65:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH65:Content-Type: application/json
+RH65:Content-Length: 231
+RH65:Connection: keep-alive
+RH65:
+RB65:{
+RB65:  "discriminant": 1.0,
+RB65:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB65:  "hostname": "82fe6eb55f6c",
+RB65:  "message": "Two real roots",
+RB65:  "server_ip": "172.21.0.2",
+RB65:  "solution": [
+RB65:    3.0,
+RB65:    2.0
+RB65:  ],
+RB65:  "solution_type": "two_real"
+RB65:}
+RS65: header 155 content 231 footer 0
+RH66:HTTP/1.1 200 OK
+RH66:Server: nginx/1.29.7
+RH66:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH66:Content-Type: application/json
+RH66:Content-Length: 231
+RH66:Connection: keep-alive
+RH66:
+RB66:{
+RB66:  "discriminant": 1.0,
+RB66:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB66:  "hostname": "9c1d9f6c2bf2",
+RB66:  "message": "Two real roots",
+RB66:  "server_ip": "172.21.0.3",
+RB66:  "solution": [
+RB66:    3.0,
+RB66:    2.0
+RB66:  ],
+RB66:  "solution_type": "two_real"
+RB66:}
+RS66: header 155 content 231 footer 0
+RH67:HTTP/1.1 200 OK
+RH67:Server: nginx/1.29.7
+RH67:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH67:Content-Type: application/json
+RH67:Content-Length: 231
+RH67:Connection: keep-alive
+RH67:
+RB67:{
+RB67:  "discriminant": 1.0,
+RB67:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB67:  "hostname": "82fe6eb55f6c",
+RB67:  "message": "Two real roots",
+RB67:  "server_ip": "172.21.0.2",
+RB67:  "solution": [
+RB67:    3.0,
+RB67:    2.0
+RB67:  ],
+RB67:  "solution_type": "two_real"
+RB67:}
+RS67: header 155 content 231 footer 0
+RH68:HTTP/1.1 200 OK
+RH68:Server: nginx/1.29.7
+RH68:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH68:Content-Type: application/json
+RH68:Content-Length: 231
+RH68:Connection: keep-alive
+RH68:
+RB68:{
+RB68:  "discriminant": 1.0,
+RB68:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB68:  "hostname": "9c1d9f6c2bf2",
+RB68:  "message": "Two real roots",
+RB68:  "server_ip": "172.21.0.3",
+RB68:  "solution": [
+RB68:    3.0,
+RB68:    2.0
+RB68:  ],
+RB68:  "solution_type": "two_real"
+RB68:}
+RS68: header 155 content 231 footer 0
+RH69:HTTP/1.1 200 OK
+RH69:Server: nginx/1.29.7
+RH69:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH69:Content-Type: application/json
+RH69:Content-Length: 231
+RH69:Connection: keep-alive
+RH69:
+RB69:{
+RB69:  "discriminant": 1.0,
+RB69:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB69:  "hostname": "82fe6eb55f6c",
+RB69:  "message": "Two real roots",
+RB69:  "server_ip": "172.21.0.2",
+RB69:  "solution": [
+RB69:    3.0,
+RB69:    2.0
+RB69:  ],
+RB69:  "solution_type": "two_real"
+RB69:}
+RS69: header 155 content 231 footer 0
+RH70:HTTP/1.1 200 OK
+RH70:Server: nginx/1.29.7
+RH70:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH70:Content-Type: application/json
+RH70:Content-Length: 231
+RH70:Connection: keep-alive
+RH70:
+RB70:{
+RB70:  "discriminant": 1.0,
+RB70:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB70:  "hostname": "9c1d9f6c2bf2",
+RB70:  "message": "Two real roots",
+RB70:  "server_ip": "172.21.0.3",
+RB70:  "solution": [
+RB70:    3.0,
+RB70:    2.0
+RB70:  ],
+RB70:  "solution_type": "two_real"
+RB70:}
+RS70: header 155 content 231 footer 0
+RH71:HTTP/1.1 200 OK
+RH71:Server: nginx/1.29.7
+RH71:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH71:Content-Type: application/json
+RH71:Content-Length: 231
+RH71:Connection: keep-alive
+RH71:
+RB71:{
+RB71:  "discriminant": 1.0,
+RB71:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB71:  "hostname": "82fe6eb55f6c",
+RB71:  "message": "Two real roots",
+RB71:  "server_ip": "172.21.0.2",
+RB71:  "solution": [
+RB71:    3.0,
+RB71:    2.0
+RB71:  ],
+RB71:  "solution_type": "two_real"
+RB71:}
+RS71: header 155 content 231 footer 0
+RH72:HTTP/1.1 200 OK
+RH72:Server: nginx/1.29.7
+RH72:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH72:Content-Type: application/json
+RH72:Content-Length: 231
+RH72:Connection: keep-alive
+RH72:
+RB72:{
+RB72:  "discriminant": 1.0,
+RB72:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB72:  "hostname": "9c1d9f6c2bf2",
+RB72:  "message": "Two real roots",
+RB72:  "server_ip": "172.21.0.3",
+RB72:  "solution": [
+RB72:    3.0,
+RB72:    2.0
+RB72:  ],
+RB72:  "solution_type": "two_real"
+RB72:}
+RS72: header 155 content 231 footer 0
+RH73:HTTP/1.1 200 OK
+RH73:Server: nginx/1.29.7
+RH73:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH73:Content-Type: application/json
+RH73:Content-Length: 231
+RH73:Connection: keep-alive
+RH73:
+RB73:{
+RB73:  "discriminant": 1.0,
+RB73:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB73:  "hostname": "82fe6eb55f6c",
+RB73:  "message": "Two real roots",
+RB73:  "server_ip": "172.21.0.2",
+RB73:  "solution": [
+RB73:    3.0,
+RB73:    2.0
+RB73:  ],
+RB73:  "solution_type": "two_real"
+RB73:}
+RS73: header 155 content 231 footer 0
+RH74:HTTP/1.1 200 OK
+RH74:Server: nginx/1.29.7
+RH74:Date: Wed, 15 Apr 2026 05:03:40 GMT
+RH74:Content-Type: application/json
+RH74:Content-Length: 231
+RH74:Connection: keep-alive
+RH74:
+RB74:{
+RB74:  "discriminant": 1.0,
+RB74:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB74:  "hostname": "9c1d9f6c2bf2",
+RB74:  "message": "Two real roots",
+RB74:  "server_ip": "172.21.0.3",
+RB74:  "solution": [
+RB74:    3.0,
+RB74:    2.0
+RB74:  ],
+RB74:  "solution_type": "two_real"
+RB74:}
+RS74: header 155 content 231 footer 0
+RH75:HTTP/1.1 200 OK
+RH75:Server: nginx/1.29.7
+RH75:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH75:Content-Type: application/json
+RH75:Content-Length: 231
+RH75:Connection: keep-alive
+RH75:
+RB75:{
+RB75:  "discriminant": 1.0,
+RB75:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB75:  "hostname": "82fe6eb55f6c",
+RB75:  "message": "Two real roots",
+RB75:  "server_ip": "172.21.0.2",
+RB75:  "solution": [
+RB75:    3.0,
+RB75:    2.0
+RB75:  ],
+RB75:  "solution_type": "two_real"
+RB75:}
+RS75: header 155 content 231 footer 0
+RH76:HTTP/1.1 200 OK
+RH76:Server: nginx/1.29.7
+RH76:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH76:Content-Type: application/json
+RH76:Content-Length: 231
+RH76:Connection: keep-alive
+RH76:
+RB76:{
+RB76:  "discriminant": 1.0,
+RB76:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB76:  "hostname": "9c1d9f6c2bf2",
+RB76:  "message": "Two real roots",
+RB76:  "server_ip": "172.21.0.3",
+RB76:  "solution": [
+RB76:    3.0,
+RB76:    2.0
+RB76:  ],
+RB76:  "solution_type": "two_real"
+RB76:}
+RS76: header 155 content 231 footer 0
+RH77:HTTP/1.1 200 OK
+RH77:Server: nginx/1.29.7
+RH77:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH77:Content-Type: application/json
+RH77:Content-Length: 231
+RH77:Connection: keep-alive
+RH77:
+RB77:{
+RB77:  "discriminant": 1.0,
+RB77:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB77:  "hostname": "82fe6eb55f6c",
+RB77:  "message": "Two real roots",
+RB77:  "server_ip": "172.21.0.2",
+RB77:  "solution": [
+RB77:    3.0,
+RB77:    2.0
+RB77:  ],
+RB77:  "solution_type": "two_real"
+RB77:}
+RS77: header 155 content 231 footer 0
+RH78:HTTP/1.1 200 OK
+RH78:Server: nginx/1.29.7
+RH78:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH78:Content-Type: application/json
+RH78:Content-Length: 231
+RH78:Connection: keep-alive
+RH78:
+RB78:{
+RB78:  "discriminant": 1.0,
+RB78:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB78:  "hostname": "9c1d9f6c2bf2",
+RB78:  "message": "Two real roots",
+RB78:  "server_ip": "172.21.0.3",
+RB78:  "solution": [
+RB78:    3.0,
+RB78:    2.0
+RB78:  ],
+RB78:  "solution_type": "two_real"
+RB78:}
+RS78: header 155 content 231 footer 0
+RH79:HTTP/1.1 200 OK
+RH79:Server: nginx/1.29.7
+RH79:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH79:Content-Type: application/json
+RH79:Content-Length: 231
+RH79:Connection: keep-alive
+RH79:
+RB79:{
+RB79:  "discriminant": 1.0,
+RB79:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB79:  "hostname": "82fe6eb55f6c",
+RB79:  "message": "Two real roots",
+RB79:  "server_ip": "172.21.0.2",
+RB79:  "solution": [
+RB79:    3.0,
+RB79:    2.0
+RB79:  ],
+RB79:  "solution_type": "two_real"
+RB79:}
+RS79: header 155 content 231 footer 0
+RH80:HTTP/1.1 200 OK
+RH80:Server: nginx/1.29.7
+RH80:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH80:Content-Type: application/json
+RH80:Content-Length: 231
+RH80:Connection: keep-alive
+RH80:
+RB80:{
+RB80:  "discriminant": 1.0,
+RB80:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB80:  "hostname": "9c1d9f6c2bf2",
+RB80:  "message": "Two real roots",
+RB80:  "server_ip": "172.21.0.3",
+RB80:  "solution": [
+RB80:    3.0,
+RB80:    2.0
+RB80:  ],
+RB80:  "solution_type": "two_real"
+RB80:}
+RS80: header 155 content 231 footer 0
+RH81:HTTP/1.1 200 OK
+RH81:Server: nginx/1.29.7
+RH81:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH81:Content-Type: application/json
+RH81:Content-Length: 231
+RH81:Connection: keep-alive
+RH81:
+RB81:{
+RB81:  "discriminant": 1.0,
+RB81:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB81:  "hostname": "82fe6eb55f6c",
+RB81:  "message": "Two real roots",
+RB81:  "server_ip": "172.21.0.2",
+RB81:  "solution": [
+RB81:    3.0,
+RB81:    2.0
+RB81:  ],
+RB81:  "solution_type": "two_real"
+RB81:}
+RS81: header 155 content 231 footer 0
+RH82:HTTP/1.1 200 OK
+RH82:Server: nginx/1.29.7
+RH82:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH82:Content-Type: application/json
+RH82:Content-Length: 231
+RH82:Connection: keep-alive
+RH82:
+RB82:{
+RB82:  "discriminant": 1.0,
+RB82:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB82:  "hostname": "9c1d9f6c2bf2",
+RB82:  "message": "Two real roots",
+RB82:  "server_ip": "172.21.0.3",
+RB82:  "solution": [
+RB82:    3.0,
+RB82:    2.0
+RB82:  ],
+RB82:  "solution_type": "two_real"
+RB82:}
+RS82: header 155 content 231 footer 0
+RH83:HTTP/1.1 200 OK
+RH83:Server: nginx/1.29.7
+RH83:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH83:Content-Type: application/json
+RH83:Content-Length: 231
+RH83:Connection: keep-alive
+RH83:
+RB83:{
+RB83:  "discriminant": 1.0,
+RB83:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB83:  "hostname": "82fe6eb55f6c",
+RB83:  "message": "Two real roots",
+RB83:  "server_ip": "172.21.0.2",
+RB83:  "solution": [
+RB83:    3.0,
+RB83:    2.0
+RB83:  ],
+RB83:  "solution_type": "two_real"
+RB83:}
+RS83: header 155 content 231 footer 0
+RH84:HTTP/1.1 200 OK
+RH84:Server: nginx/1.29.7
+RH84:Date: Wed, 15 Apr 2026 05:03:41 GMT
+RH84:Content-Type: application/json
+RH84:Content-Length: 231
+RH84:Connection: keep-alive
+RH84:
+RB84:{
+RB84:  "discriminant": 1.0,
+RB84:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB84:  "hostname": "9c1d9f6c2bf2",
+RB84:  "message": "Two real roots",
+RB84:  "server_ip": "172.21.0.3",
+RB84:  "solution": [
+RB84:    3.0,
+RB84:    2.0
+RB84:  ],
+RB84:  "solution_type": "two_real"
+RB84:}
+RS84: header 155 content 231 footer 0
+RH85:HTTP/1.1 200 OK
+RH85:Server: nginx/1.29.7
+RH85:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH85:Content-Type: application/json
+RH85:Content-Length: 231
+RH85:Connection: keep-alive
+RH85:
+RB85:{
+RB85:  "discriminant": 1.0,
+RB85:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB85:  "hostname": "82fe6eb55f6c",
+RB85:  "message": "Two real roots",
+RB85:  "server_ip": "172.21.0.2",
+RB85:  "solution": [
+RB85:    3.0,
+RB85:    2.0
+RB85:  ],
+RB85:  "solution_type": "two_real"
+RB85:}
+RS85: header 155 content 231 footer 0
+RH86:HTTP/1.1 200 OK
+RH86:Server: nginx/1.29.7
+RH86:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH86:Content-Type: application/json
+RH86:Content-Length: 231
+RH86:Connection: keep-alive
+RH86:
+RB86:{
+RB86:  "discriminant": 1.0,
+RB86:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB86:  "hostname": "9c1d9f6c2bf2",
+RB86:  "message": "Two real roots",
+RB86:  "server_ip": "172.21.0.3",
+RB86:  "solution": [
+RB86:    3.0,
+RB86:    2.0
+RB86:  ],
+RB86:  "solution_type": "two_real"
+RB86:}
+RS86: header 155 content 231 footer 0
+RH87:HTTP/1.1 200 OK
+RH87:Server: nginx/1.29.7
+RH87:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH87:Content-Type: application/json
+RH87:Content-Length: 231
+RH87:Connection: keep-alive
+RH87:
+RB87:{
+RB87:  "discriminant": 1.0,
+RB87:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB87:  "hostname": "82fe6eb55f6c",
+RB87:  "message": "Two real roots",
+RB87:  "server_ip": "172.21.0.2",
+RB87:  "solution": [
+RB87:    3.0,
+RB87:    2.0
+RB87:  ],
+RB87:  "solution_type": "two_real"
+RB87:}
+RS87: header 155 content 231 footer 0
+RH88:HTTP/1.1 200 OK
+RH88:Server: nginx/1.29.7
+RH88:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH88:Content-Type: application/json
+RH88:Content-Length: 231
+RH88:Connection: keep-alive
+RH88:
+RB88:{
+RB88:  "discriminant": 1.0,
+RB88:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB88:  "hostname": "9c1d9f6c2bf2",
+RB88:  "message": "Two real roots",
+RB88:  "server_ip": "172.21.0.3",
+RB88:  "solution": [
+RB88:    3.0,
+RB88:    2.0
+RB88:  ],
+RB88:  "solution_type": "two_real"
+RB88:}
+RS88: header 155 content 231 footer 0
+RH89:HTTP/1.1 200 OK
+RH89:Server: nginx/1.29.7
+RH89:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH89:Content-Type: application/json
+RH89:Content-Length: 231
+RH89:Connection: keep-alive
+RH89:
+RB89:{
+RB89:  "discriminant": 1.0,
+RB89:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB89:  "hostname": "82fe6eb55f6c",
+RB89:  "message": "Two real roots",
+RB89:  "server_ip": "172.21.0.2",
+RB89:  "solution": [
+RB89:    3.0,
+RB89:    2.0
+RB89:  ],
+RB89:  "solution_type": "two_real"
+RB89:}
+RS89: header 155 content 231 footer 0
+RH90:HTTP/1.1 200 OK
+RH90:Server: nginx/1.29.7
+RH90:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH90:Content-Type: application/json
+RH90:Content-Length: 231
+RH90:Connection: keep-alive
+RH90:
+RB90:{
+RB90:  "discriminant": 1.0,
+RB90:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB90:  "hostname": "9c1d9f6c2bf2",
+RB90:  "message": "Two real roots",
+RB90:  "server_ip": "172.21.0.3",
+RB90:  "solution": [
+RB90:    3.0,
+RB90:    2.0
+RB90:  ],
+RB90:  "solution_type": "two_real"
+RB90:}
+RS90: header 155 content 231 footer 0
+RH91:HTTP/1.1 200 OK
+RH91:Server: nginx/1.29.7
+RH91:Date: Wed, 15 Apr 2026 05:03:42 GMT
+RH91:Content-Type: application/json
+RH91:Content-Length: 231
+RH91:Connection: keep-alive
+RH91:
+RB91:{
+RB91:  "discriminant": 1.0,
+RB91:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB91:  "hostname": "82fe6eb55f6c",
+RB91:  "message": "Two real roots",
+RB91:  "server_ip": "172.21.0.2",
+RB91:  "solution": [
+RB91:    3.0,
+RB91:    2.0
+RB91:  ],
+RB91:  "solution_type": "two_real"
+RB91:}
+RS91: header 155 content 231 footer 0
+RH92:HTTP/1.1 200 OK
+RH92:Server: nginx/1.29.7
+RH92:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH92:Content-Type: application/json
+RH92:Content-Length: 231
+RH92:Connection: keep-alive
+RH92:
+RB92:{
+RB92:  "discriminant": 1.0,
+RB92:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB92:  "hostname": "9c1d9f6c2bf2",
+RB92:  "message": "Two real roots",
+RB92:  "server_ip": "172.21.0.3",
+RB92:  "solution": [
+RB92:    3.0,
+RB92:    2.0
+RB92:  ],
+RB92:  "solution_type": "two_real"
+RB92:}
+RS92: header 155 content 231 footer 0
+RH93:HTTP/1.1 200 OK
+RH93:Server: nginx/1.29.7
+RH93:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH93:Content-Type: application/json
+RH93:Content-Length: 231
+RH93:Connection: keep-alive
+RH93:
+RB93:{
+RB93:  "discriminant": 1.0,
+RB93:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB93:  "hostname": "82fe6eb55f6c",
+RB93:  "message": "Two real roots",
+RB93:  "server_ip": "172.21.0.2",
+RB93:  "solution": [
+RB93:    3.0,
+RB93:    2.0
+RB93:  ],
+RB93:  "solution_type": "two_real"
+RB93:}
+RS93: header 155 content 231 footer 0
+RH94:HTTP/1.1 200 OK
+RH94:Server: nginx/1.29.7
+RH94:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH94:Content-Type: application/json
+RH94:Content-Length: 231
+RH94:Connection: keep-alive
+RH94:
+RB94:{
+RB94:  "discriminant": 1.0,
+RB94:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB94:  "hostname": "9c1d9f6c2bf2",
+RB94:  "message": "Two real roots",
+RB94:  "server_ip": "172.21.0.3",
+RB94:  "solution": [
+RB94:    3.0,
+RB94:    2.0
+RB94:  ],
+RB94:  "solution_type": "two_real"
+RB94:}
+RS94: header 155 content 231 footer 0
+RH95:HTTP/1.1 200 OK
+RH95:Server: nginx/1.29.7
+RH95:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH95:Content-Type: application/json
+RH95:Content-Length: 231
+RH95:Connection: keep-alive
+RH95:
+RB95:{
+RB95:  "discriminant": 1.0,
+RB95:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB95:  "hostname": "82fe6eb55f6c",
+RB95:  "message": "Two real roots",
+RB95:  "server_ip": "172.21.0.2",
+RB95:  "solution": [
+RB95:    3.0,
+RB95:    2.0
+RB95:  ],
+RB95:  "solution_type": "two_real"
+RB95:}
+RS95: header 155 content 231 footer 0
+RH96:HTTP/1.1 200 OK
+RH96:Server: nginx/1.29.7
+RH96:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH96:Content-Type: application/json
+RH96:Content-Length: 231
+RH96:Connection: keep-alive
+RH96:
+RB96:{
+RB96:  "discriminant": 1.0,
+RB96:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB96:  "hostname": "9c1d9f6c2bf2",
+RB96:  "message": "Two real roots",
+RB96:  "server_ip": "172.21.0.3",
+RB96:  "solution": [
+RB96:    3.0,
+RB96:    2.0
+RB96:  ],
+RB96:  "solution_type": "two_real"
+RB96:}
+RS96: header 155 content 231 footer 0
+RH97:HTTP/1.1 200 OK
+RH97:Server: nginx/1.29.7
+RH97:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH97:Content-Type: application/json
+RH97:Content-Length: 231
+RH97:Connection: keep-alive
+RH97:
+RB97:{
+RB97:  "discriminant": 1.0,
+RB97:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB97:  "hostname": "82fe6eb55f6c",
+RB97:  "message": "Two real roots",
+RB97:  "server_ip": "172.21.0.2",
+RB97:  "solution": [
+RB97:    3.0,
+RB97:    2.0
+RB97:  ],
+RB97:  "solution_type": "two_real"
+RB97:}
+RS97: header 155 content 231 footer 0
+RH98:HTTP/1.1 200 OK
+RH98:Server: nginx/1.29.7
+RH98:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH98:Content-Type: application/json
+RH98:Content-Length: 231
+RH98:Connection: keep-alive
+RH98:
+RB98:{
+RB98:  "discriminant": 1.0,
+RB98:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB98:  "hostname": "9c1d9f6c2bf2",
+RB98:  "message": "Two real roots",
+RB98:  "server_ip": "172.21.0.3",
+RB98:  "solution": [
+RB98:    3.0,
+RB98:    2.0
+RB98:  ],
+RB98:  "solution_type": "two_real"
+RB98:}
+RS98: header 155 content 231 footer 0
+RH99:HTTP/1.1 200 OK
+RH99:Server: nginx/1.29.7
+RH99:Date: Wed, 15 Apr 2026 05:03:43 GMT
+RH99:Content-Type: application/json
+RH99:Content-Length: 231
+RH99:Connection: keep-alive
+RH99:
+RB99:{
+RB99:  "discriminant": 1.0,
+RB99:  "equation": "1.0x\u00b2 + -5.0x + 6.0 = 0",
+RB99:  "hostname": "82fe6eb55f6c",
+RB99:  "message": "Two real roots",
+RB99:  "server_ip": "172.21.0.2",
+RB99:  "solution": [
+RB99:    3.0,
+RB99:    2.0
+RB99:  ],
+RB99:  "solution_type": "two_real"
+RB99:}
+RS99: header 155 content 231 footer 0
+Maximum connect burst length: 3
+
+Total: connections 100 requests 100 replies 100 test-duration 9.905 s
+
+Connection rate: 10.1 conn/s (99.0 ms/conn, <=3 concurrent connections)
+Connection time [ms]: min 1.6 avg 7.5 max 43.3 median 5.5 stddev 6.8
+Connection time [ms]: connect 0.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 10.1 req/s (99.0 ms/req)
+Request size [B]: 80.0
+
+Reply rate [replies/s]: min 10.0 avg 10.0 max 10.0 stddev 0.0 (1 samples)
+Reply time [ms]: response 7.5 transfer 0.0
+Reply size [B]: header 155.0 content 231.0 footer 0.0 (total 386.0)
+Reply status: 1xx=0 2xx=100 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.00 system 7.49 (user 30.3% system 75.6% total 105.9%)
+Net I/O: 4.6 KB/s (0.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
